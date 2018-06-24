@@ -1,4 +1,6 @@
-DotNetThumbor - C# Thumbor client by Nine Entertainment Co.
+NecoreThumbor - is a port of DotNetThumbor
+
+C# Thumbor client by Nine Entertainment Co.
 ========================================
 
 DotNet C# client for the [Thumbor image service][1] which allows you to build URIs 
@@ -9,7 +11,7 @@ Download
 
 Download via Nuget:
 
-https://www.nuget.org/packages/DotNetThumbor.dll/
+https://www.nuget.org/packages/NecoreThumbor.dll/
 
 Or build locally and import DLL into project.
 
