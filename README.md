@@ -9,7 +9,7 @@ Download
 
 Download via Nuget:
 
-https://www.nuget.org/packages/NecoreThumbor.dll/
+https://www.nuget.org/packages/NetCoreThumbor/
 
 Or build locally and import DLL into project.
 
