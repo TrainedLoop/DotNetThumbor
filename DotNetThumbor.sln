@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetThumbor", "DotNetThumbor\DotNetThumbor.csproj", "{C27C34DB-373E-493C-AE2F-C267FA4EB661}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetThumborTest", "DotNetThumborTest\DotNetThumborTest.csproj", "{F2D70EE2-BD99-49E8-BD15-4D378E8F6307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreThumbor", "NetCoreThumbor\NetCoreThumbor.csproj", "{FC1A3D3B-0B6D-45D3-9B6A-23FA941DC988}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +23,15 @@ Global
 		{F2D70EE2-BD99-49E8-BD15-4D378E8F6307}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2D70EE2-BD99-49E8-BD15-4D378E8F6307}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2D70EE2-BD99-49E8-BD15-4D378E8F6307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1A3D3B-0B6D-45D3-9B6A-23FA941DC988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1A3D3B-0B6D-45D3-9B6A-23FA941DC988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1A3D3B-0B6D-45D3-9B6A-23FA941DC988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1A3D3B-0B6D-45D3-9B6A-23FA941DC988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA67B02A-00F8-4BA8-B444-456EBBB8078D}
 	EndGlobalSection
 EndGlobal
