@@ -39,6 +39,8 @@
 
         private int? height;
 
+        private bool meta;
+
         /// <summary>
         /// Creates a new ThumborImage which uses the provided parameters to create either a
         /// signed or unsigned URL with filters and other thumbor options
@@ -523,6 +525,17 @@
         }
 
         /// <summary>
+        /// Sets a flag to call meta endpoint.
+        /// </summary>
+        /// <param name="metaOnly">if sets to true, meta endpoint will be called</param>
+        /// <returns>The current thumbor image object.</returns>
+        public ThumborImage Meta(bool metaOnly)
+        {
+            this.meta = metaOnly;
+            return this;
+        }
+
+        /// <summary>
         /// An alias to ToUrl
         /// </summary>
         /// <returns>The results of ToUrl</returns>
@@ -581,6 +594,11 @@
         private string FormatUrlParts()
         {
             var urlParts = new List<string>();
+
+            if (this.meta)
+            {
+                urlParts.Add("meta");
+            }
 
             if (this.trim != Thumbor.ImageTrimOption.None)
             {
